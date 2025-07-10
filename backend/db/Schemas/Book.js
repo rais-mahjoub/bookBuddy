@@ -16,5 +16,9 @@ const bookSchema = new mongoose.schema({
     author_id: {
         type: String,
         required: true
+    },
+    category_id: {
+        type: String,
+        required: false
     }
 })
